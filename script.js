@@ -178,16 +178,68 @@ let tasks = [];
 
 // console.log(tasks);
 
-function addTask(task) {
-  tasks.push(task);
-  console.log("وظیفه اضافه شده : ", task);
-  console.log("فهرست فعلی وظایف : ");
+// function addTask(task) {
+//   tasks.push(task);
+//   console.log("وظیفه اضافه شده : ", task);
+//   console.log("فهرست فعلی وظایف : ");
 
-  tasks.forEach((t, i) => {
-    console.log(i + 1 + " - " + t);
-  });
-}
+//   tasks.forEach((t, i) => {
+//     console.log(i + 1 + " - " + t);
+//   });
+// }
 
-addTask("یادگیری جاوا اسکریپت");
-addTask("تمرین کردم سئو");
-addTask("بگیر بخوا بسه دیگه!!!");
+// addTask("یادگیری جاوا اسکریپت");
+// addTask("تمرین کردم سئو");
+// addTask("بگیر بخوا بسه دیگه!!!");
+
+// function addTask(task) {
+//   tasks.push(task);
+// }
+
+// function showTasks() {
+//   console.log("لیست کامل وظایف: ");
+//   tasks.forEach((t, i) => {
+//     console.log(i + 1 + " _ " + t);
+//   });
+// }
+
+// function removeTask(index) {
+//   tasks.splice(index, 1);
+//   showTasks();
+// }
+
+// addTask("تایپ سوال");
+// addTask("تمرین جاوا اسکریپت");
+// addTask("خوردن قهوه");
+// showTasks();
+
+// removeTask(2);
+
+// function addTask(task) {
+//   tasks.push(task);
+//   console.log(`وظیفه جدید اضافه شد : ${task}`);
+// }
+
+// function showTasks() {
+//   console.log("وظایف شما تا کنون:");
+//   tasks.forEach((t, i) => {
+//     console.log(i + 1 + " - " + t);
+//   });
+// }
+
+// function removeTask(index) {
+//   tasks.splice(index, 1);
+//   showTasks();
+// }
+
+// while (true) {
+//   let input = prompt(
+//     "وظایف خود را وارد کنید و برای نمایش لیست exit را وارد کنید."
+//   );
+//   if (input === "exit") break;
+//   addTask(input);
+// }
+
+// showTasks();
+
+// تمرین شماره 8 - رنگ پس زمینه
